@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+
+# Local configuration
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data files
+Data/
+processed/
+*.csv
+*.xlsx
+
+# Power BI - add later
+*.pbix
+*.pbit
+
+# Logs
+*.log
